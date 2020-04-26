@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #363636;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 80%;
+  width: 100%;
+  margin-top: 50px;
+}
+.container .container__title {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: gray;
+}
+.container .container__name {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #ffb005;
+}
+
+@media (max-width: 512px) {
+  .container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .container .container__title {
+    font-size: 23px;
+  }
+  .container .container__name {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+@media (min-width: 736px) {
+  .container {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .container .container__title {
+    font-size: 23px;
+  }
+  .container .container__name {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.button .button__btn {
+  width: 150px;
+  height: 50px;
+  background-color: #5a5a5a;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.8), -3px -3px 30px rgba(172, 172, 172, 0.8);
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+  background-image: url("../img/icoFacebook.png");
+}
+.button .button__btn a {
+  text-decoration: none;
+  color: gray;
+  font-size: 18px;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+.button .button__btn:hover {
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7), -3px -3px 15px rgba(131, 131, 131, 0.7);
+}
+.button .button__btn:hover a {
+  color: #a8a8a8;
+}
+
+.cajas {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.cajas .caja-1 {
+  height: 100px;
+  width: 100px;
+  background-color: #5a5a5a;
+  box-shadow: 3px 3px 30px rgba(0, 0, 0, 0.8), -3px -3px 30px rgba(172, 172, 172, 0.8);
+  border-radius: 50%;
+  transition: 0.3s;
+  margin: 20px;
+  background: url("../img/icoFacebook.png");
+}
+.cajas .caja-1:hover {
+  cursor: pointer;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.7), -3px -3px 15px rgba(131, 131, 131, 0.7);
+}
+
+.letra.light {
+  background: #ffb005;
+}
+
+@media (max-width: 570px) {
+  .cajas {
+    width: 100%;
+  }
+  .cajas .caja-1 {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+  }
+}
+@media (max-width: 736px) {
+  .cajas {
+    width: 100%;
+  }
+  .cajas .caja-1 {
+    height: 90px;
+    width: 90px;
+    margin: 10px;
+  }
+}
+.hide {
+  display: none;
+}
+
+.box {
+  display: flex;
+  margin: 50px auto;
+  height: 60px;
+  width: 20%;
+  outline: none;
+  background-color: rgba(68, 68, 68, 0.267);
+  box-shadow: inset -3px -3px 9px rgba(128, 128, 128, 0.8), inset 3px 3px 9px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+  border: none;
+}
+
+@media (max-width: 512px) {
+  .box {
+    width: 60%;
+  }
+  .box .caja-1 {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
