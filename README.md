@@ -1,4 +1,4 @@
 
 # Pequeño juego de Simon Dice
 
-![](C:\Users\ASUS\Desktop\Practicas\Platzi\JuegoJS\Mio\SimonDice\img)
+![](https://github.com/vargaspv/Game-JS/blob/master/img/1.png)
